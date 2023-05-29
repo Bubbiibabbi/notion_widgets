@@ -1,4 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greetings</title>
+
+    <style>
+
+
+        body{
+            font-variant-caps: all-petite-caps;
+
+
+        }
+
+        .widget {
+            padding: 5px 5px ;
+            color: #000000;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction: column;
+            max-width: 95%;
+            margin: auto;
+            border: 3px solid #000000;
+            border-radius: 5px;
+            box-shadow: 2px 2px 1px 0px #000000;
+
+        }
+
+           
+        .greet{
+            font-size: 3em;
+        }
+
+        .date {
+      
+            font-family: monospace;
+            font-size: 2em;
+        }
+
+        .clock {
+            font-family: monospace;
+            font-size: 2em;
+        }
+
+        .time {
+            display: inline-block;
+            min-width: 20px;
+        }
+
+        .colon {
+            font-size: 1em;
+            display: inline-block;
+        }
+
+     
+
+
+
+
+    </style>
+</head>
+<body>
+
 <a class="weatherwidget-io" href="https://forecast7.com/en/43d2127d91/varna/" data-label_1="VARNA" data-label_2="Weather" data-font="Ubuntu" >VARNA Weather</a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
+
+</body>
+</html>
