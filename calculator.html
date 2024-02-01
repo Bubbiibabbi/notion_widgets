@@ -280,7 +280,7 @@ function equals() {
   if ((display.value).indexOf("^") > -1) {
     var base = (display.value).slice(0, (display.value).indexOf("^"));
     var exponent = (display.value).slice((display.value).indexOf("^") + 1);
-    display.value = eval(Math.round((" + base + "," + exponent + ") * 100) / 100)).toFixed(2);
+    display.value = eval("Math.pow(" + base + "," + exponent + ")");
 	     //display.value = eval("Math.pow(" + base + "," + exponent + ")");
 	  //(Math.round(num * 100) / 100).toFixed(2);
   } else {
