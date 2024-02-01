@@ -380,7 +380,8 @@ function degrees() {
 }
 
 function financial(x) {
-  return Number.parseFloat(x).toFixed(2);
+  (Math.round((x) * 100) / 100).toFixed(2);
+  //return Number.parseFloat(x).toFixed(2);
 }
 
 
